@@ -60,7 +60,7 @@ const allSongs=[
         title: "Walking on Air",
         artist: "Quincy Larson",
         duration: "3:25",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/walking-on-air.mp3",
+        src: "/rep/https://cdn.freecodecamp.org/curriculum/js-music-player/walking-on-air.mp3",
     },
     {
         
