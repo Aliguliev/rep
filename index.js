@@ -25,49 +25,49 @@ const allSongs=[
         title: "Can't Stay Down",
         artist: "Quincy Larson",
         duration: "4:15",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/can't-stay-down.mp3",
     },
     {
         
         title: "Still Learning",
         artist: "Quincy Larson",
         duration: "3:51",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/still-learning.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/still-learning.mp3",
     },
     {
         
         title: "Cruising for a Musing",
         artist: "Quincy Larson",
         duration: "3:34",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/cruising-for-a-musing.mp3",
     },
     {
         
         title: "Never Not Favored",
         artist: "Quincy Larson",
         duration: "3:35",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/never-not-favored.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/never-not-favored.mp3",
     },
     {
         
         title: "From the Ground Up",
         artist: "Quincy Larson",
         duration: "3:12",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/from-the-ground-up.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/from-the-ground-up.mp3",
     },
     {
         
         title: "Walking on Air",
         artist: "Quincy Larson",
         duration: "3:25",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/walking-on-air.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/walking-on-air.mp3",
     },
     {
         
         title: "Can't Stop Me. Can't Even Slow Me Down.",
         artist: "Quincy Larson",
         duration: "3:52",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/cant-stop-me-cant-even-slow-me-down.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/cant-stop-me-cant-even-slow-me-down.mp3",
         
     },
     {
@@ -75,14 +75,14 @@ const allSongs=[
         title: "The Surest Way Out is Through",
         artist: "Quincy Larson",
         duration: "3:10",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/the-surest-way-out-is-through.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/the-surest-way-out-is-through.mp3",
     },
     {
         
         title: "Chasing That Feeling",
         artist: "Quincy Larson",
         duration: "2:43",
-        src: "https://cdn.freecodecamp.org/curriculum/js-music-player/chasing-that-feeling.mp3",
+        src: "https://raw.githubusercontent.com/Aliguliev/rep/main/chasing-that-feeling.mp3",
     },
 ];
 
