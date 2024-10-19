@@ -104,7 +104,7 @@ const renderSong=(array)=>{
             <span class="playlist-song-duration">${song.duration}</span>
         </button>
         <button class="playlist-song-delete" id='del-${song.id}'  onclick="remove(${song.id})">
-            <img src="rep/close-tab-svgrepo-com.svg"/>
+            <img src="./close-tab-svgrepo-com.svg"/>
         </button>
         </li>`
     }).join('')
