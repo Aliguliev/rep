@@ -158,7 +158,7 @@ li{
         
     }
     .player-display{
-        background-image: url('https://cdn.freecodecamp.org/curriculum/js-music-player/quincy-larson-album-art.jpg');
+        background-image: url('/rep/art.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 225px;
