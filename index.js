@@ -116,7 +116,7 @@ const renderSong=(array)=>{
 
 
 const playSongs= (id)=>{
-    console.log(userData?.songs[id])
+    
     song=userData?.songs.find((song)=>song.id===id)
     audio.src=song.src;
     console.log(audio.src)
