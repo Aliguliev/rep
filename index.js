@@ -118,6 +118,7 @@ const renderSong=(array)=>{
 const playSongs= (id)=>{
     song=userData?.songs.find((song)=>song.id===id)
     audio.src=song.src;
+    console.log(audio.src)
     audio.title=song.title;
     if (userData?.currentSong ===null || userData?.currentSong.id!==song.id){
         audio.currentTime=0;
