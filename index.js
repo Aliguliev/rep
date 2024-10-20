@@ -1,7 +1,8 @@
+
 const playListSongs = document.getElementById('playlist-songs');
 const playButton = document.getElementById('play');
 const previousButton = document.getElementById('previous');
-const pauseButton = document.getElementById('pause');
+
 const nextButton = document.getElementById('next');
 const shuffleButton = document.getElementById('shuffle');
 const playSongText = document.getElementById('player-song-title')
@@ -9,9 +10,8 @@ const playArtistText = document.getElementById('player-song-artist')
 
 const playImgW = document.getElementById('play-white')
 const playImgY = document.getElementById('play-yellow')
-const pauseImgW = document.getElementById('pause-white')
 const pauseImgY = document.getElementById('pause-yellow')
-
+let t=0;
 const allSongs=[
     {
         
@@ -140,27 +140,33 @@ const playSongs= (id)=>{
     audio.play()
     playImgW.style.display = 'none'
     playImgY.style.display = 'block'
-    pauseImgW.style.display = 'block'
     pauseImgY.style.display = 'none'
+    t=1;
 }
 const pauseSong=()=>{
     userData.currentSongTime=audio.currentTime;
     audio.pause();
-    playImgW.style.display = 'block'
+    playImgW.style.display = 'none'
     playImgY.style.display = 'none'
-    pauseImgW.style.display = 'none'
     pauseImgY.style.display = 'block'
+    t=0;
+    
 }
 
 
 playButton.addEventListener('click',()=>{
-    if (userData?.currentSong===null){
-        playSongs(userData?.songs[0].id);
-    }else{
-        playSongs(userData?.currentSong.id);
+    if(t==0){
+        if (userData?.currentSong===null){
+            playSongs(userData?.songs[0].id);
+        }else{
+            playSongs(userData?.currentSong.id);
+        }
+    }
+    else{
+        pauseSong()
     }
 });
-pauseButton.addEventListener('click',pauseSong);
+
 
 
 const highlightCurrentSong=(nap)=>{
